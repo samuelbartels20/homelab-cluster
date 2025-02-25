@@ -16,3 +16,4 @@ resources:
   - ./stakater.yaml
   - ./openebs.yaml
   - ./external-secrets.yaml
+  - ./piraeus.yaml
