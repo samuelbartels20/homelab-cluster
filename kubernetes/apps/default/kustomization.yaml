@@ -8,3 +8,4 @@ components:
 resources:
   - ./echo-server/ks.yaml
   - ./trilium/ks.yaml
+
