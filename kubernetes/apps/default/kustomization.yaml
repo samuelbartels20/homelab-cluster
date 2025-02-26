@@ -9,4 +9,6 @@ resources:
   - ./echo-server/ks.yaml
   - ./trilium/ks.yaml
   - ./homepage/ks.yaml
+  - ./vaultwarden/ks.yaml
+
 
