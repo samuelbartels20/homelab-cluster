@@ -43,7 +43,7 @@ spec:
                 valueFrom:
                   secretKeyRef:
                     name: homelab-cluster
-                    key: 1password-credentials.json
+                    key: homelab-cluster.json
             probes:
               liveness:
                 enabled: true
@@ -85,7 +85,7 @@ spec:
                 valueFrom:
                   secretKeyRef:
                     name: homelab-cluster
-                    key: 1password-credentials.json
+                    key: homelab-cluster.json
             probes:
               liveness:
                 enabled: true
