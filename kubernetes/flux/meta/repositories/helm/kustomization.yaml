@@ -17,4 +17,3 @@ resources:
   - ./openebs.yaml
   - ./external-secrets.yaml
   - ./piraeus.yaml
-  - ./onepassword.yaml
