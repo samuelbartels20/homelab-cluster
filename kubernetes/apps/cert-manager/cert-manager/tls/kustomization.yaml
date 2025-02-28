@@ -5,5 +5,3 @@ kind: Kustomization
 resources:
   - ./staging.yaml
   - ./production.yaml
-  - ./certificates.yaml
-  - ./pushsecret.yaml
