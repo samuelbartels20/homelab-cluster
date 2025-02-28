@@ -9,9 +9,9 @@ spec:
   commonMetadata:
     labels:
       app.kubernetes.io/name: *app
-  dependsOn:
-    - name: onepassword
-      namespace: external-secrets
+  # dependsOn:
+  #   - name: onepassword
+  #     namespace: external-secrets
   interval: 30m
   path: ./kubernetes/apps/cert-manager/cert-manager/app
   prune: true
@@ -62,8 +62,8 @@ spec:
   dependsOn:
     - name: cert-manager-issuers
       namespace: cert-manager
-    - name: onepassword
-      namespace: external-secrets
+    # - name: onepassword
+    #   namespace: external-secrets
   healthCheckExprs:
     - apiVersion: cert-manager.io/v1
       kind: Certificate
