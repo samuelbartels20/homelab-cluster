@@ -5,4 +5,4 @@ kind: Kustomization
 resources:
   - ./clustersecretstore.yaml
   - ./helmrelease.yaml
-  - ./1password.yaml
+  - ./1password-secret.yaml
